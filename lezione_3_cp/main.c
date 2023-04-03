@@ -16,12 +16,12 @@ int main(){
     printf("Inserire N\n");
 	scanf("%d",&N);
 
-	a=(float*)calloc(N,sizeof(float));
+    a=(float*)calloc(N,sizeof(float));
 
     puts("Riempio l'array\n");
 
     for (int k=0; k<N; k++)
-		a[k]=1;
+	a[k]=1;
 
     double t0,t1;
     t0=omp_get_wtime(); //prendo il tempo del sistema pre esecuzione della parte parallela
@@ -35,13 +35,13 @@ int main(){
 
         if(id < r){        //se l'identificativo del thread è minore di N%t
 
-			nloc++;        //il thread si prende un elemento in più
-			step=0;
+		nloc++;        //il thread si prende un elemento in più
+		step=0;
 
-		}
-
-		else
-			step=r;
+	}
+	
+	else
+		step=r;
 
 
 
