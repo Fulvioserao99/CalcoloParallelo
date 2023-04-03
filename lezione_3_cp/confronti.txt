@@ -1,0 +1,60 @@
+Confronto risultati test esecuzione algoritmo -> Caso in cui abbiamo un array con 1234567 locazioni, di tipo float, ognuna contenente valore '1':
+
+
+Single core:
+Somma totale: 1234567.000000
+Tempo:0.006534
+
+Somma totale: 1234567.000000
+Tempo:0.006881
+
+Somma totale: 1234567.000000
+Tempo:0.006769
+
+
+
+Dual Core:
+Somma totale: 1234567.000000
+Tempo:0.003885
+
+Somma totale: 1234567.000000
+Tempo:0.004419
+
+Somma totale: 1234567.000000
+Tempo:0.003633
+
+
+
+Quad Core:
+Somma totale: 1234567.000000
+Tempo:0.003435
+
+Somma totale: 1234567.000000
+Tempo:0.003460
+
+Somma totale: 1234567.000000
+Tempo:0.003497
+
+
+
+Octa Core:
+Somma totale: 1234567.000000
+Tempo:0.002015
+
+Somma totale: 1234567.000000
+Tempo:0.001976
+
+Somma totale: 925925.000000
+Tempo:0.002133
+
+
+Deca Core:
+Somma totale: 1234567.000000
+Tempo:0.001772
+
+Somma totale: 1111111.000000
+Tempo:0.001829
+
+Somma totale: 1234567.000000
+Tempo:0.001854
+
