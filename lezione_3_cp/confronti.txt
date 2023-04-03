@@ -48,6 +48,7 @@ Somma totale: 925925.000000
 Tempo:0.002133
 
 
+
 Deca Core:
 Somma totale: 1234567.000000
 Tempo:0.001772
