@@ -35,22 +35,18 @@ int main(){
 
         if(id < r){        //se l'identificativo del thread è minore di N%t
 
-			nloc++;        //il thread si prende un elemento in più
-			step=0;
+		nloc++;        //il thread si prende un elemento in più
+		step=0;
 
-		}
+	}
 
-		else
-			step=r;
+	else
+		step=r;
 
 
 
         for(i=0; i<nloc; i++)
             sumtot+=a[i+nloc*id+step];
-
-
-
-
 
 
     }
