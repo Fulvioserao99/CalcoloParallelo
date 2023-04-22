@@ -1,0 +1,51 @@
+Confronto risultati test esecuzione algoritmo prodotto scalare -> Caso in cui abbiamo due array da 10000001 locazioni
+
+
+Single core:
+Tempo: 0.048154, somma:55200005.329265
+
+Tempo: 0.047975, somma:55200005.329265
+
+Tempo: 0.048138, somma:55200005.329265
+
+
+
+
+Dual Core:
+Tempo: 0.024252, somma:55200005.329265
+
+Tempo: 0.024439, somma:55200005.329265
+
+Tempo: 0.024320, somma:55200005.329265
+
+
+
+
+Quad Core:
+Tempo: 0.025899, somma:55200005.329265
+
+Tempo: 0.026427, somma:55200005.329265
+
+Tempo: 0.025678, somma:55200005.329265
+
+
+
+
+Octa Core:
+Tempo: 0.013413, somma:55200005.329265
+
+Tempo: 0.013813, somma:55200005.329265
+
+Tempo: 0.013838, somma:55200005.329265
+
+
+
+
+Deca Core:
+Tempo: 0.011368, somma:55200005.329265
+
+Tempo: 0.011880, somma:55200005.329265
+
+Tempo: 0.011448, somma:55200005.329265
+
+
